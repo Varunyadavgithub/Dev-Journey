@@ -50,8 +50,8 @@ React can be used directly in the browser through a CDN (Content Delivery Networ
 Here are the CDN links you need to include in the `index.html` file:
 
 ```html
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> #react cdn
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> #react-dom cdn
 ```
 
 By adding these CDN links to your HTML file, you enable the use of React and ReactDOM directly in the browser. This is ideal for small projects or when you want to experiment with React quickly.
@@ -166,5 +166,3 @@ In this episode, we covered the following key concepts:
 In Episode 1, we covered the basics of setting up React and creating simple "Hello World" examples. We also learned how to create more complex structures in React and understand the underlying workings of React elements.
 
 React allows us to break down UI into reusable components and build complex user interfaces in a modular way. In future episodes, we will dive deeper into React components, state, props, and other advanced concepts.
-
-Stay tuned for the next episode, where we will explore **React Components**, **State Management**, and **Event Handling**.
