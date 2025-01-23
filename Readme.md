@@ -18,8 +18,8 @@ This repository contains:
 
 Each episode dives into specific topics, offering code examples and explanations. For detailed information on individual episodes, please refer to their respective documentation:
 
-- [Episode 1: Hello World in React](./Episode-1.md)
-- [Episode 2: Why React is Fast](./Episode-2.md)
+- [Episode 1: Hello World in React](./Episode_01/Readme.md)
+- [Episode 2: Why React is Fast](./Episode_02/Readme.md)
 
 ---
 
