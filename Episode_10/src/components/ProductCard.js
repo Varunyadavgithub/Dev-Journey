@@ -1,11 +1,12 @@
-// import { productData } from "../utils/constent";
 import Product from "./Product";
 import { useEffect, useState } from "react";
+import Skeleton from "./Skeleton";
 
-// named export
 export const ProductCard = () => {
   const [listOfProduct, setListOfProduct] = useState([]);
-  
+  const [filterProduct, setFilterProduct] = useState([]);
+  const [searchText, setSearchText] = useState("");
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -13,15 +14,44 @@ export const ProductCard = () => {
   const fetchData = async () => {
     const data = await fetch("https://fakestoreapi.com/products");
     const resData = await data.json();
-    console.log(resData);
     setListOfProduct(resData);
+    setFilterProduct(resData);
   };
-  console.log("Product Render");
-  return (
+
+  return listOfProduct.length === 0 ? (
+    <Skeleton />
+  ) : (
     <div className="product_card">
       <p>I am Product Card Component.</p>
 
       <div>
+        <div
+          style={{
+            margin: "10px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "5px",
+          }}
+        >
+          <input
+            type="text"
+            onChange={(e) => setSearchText(e.target.value)}
+            value={searchText}
+          />
+          <button
+            onClick={() => {
+              const filteredData = listOfProduct.filter((product) => {
+                return product.title
+                  .toLowerCase()
+                  .includes(searchText.toLowerCase());
+              });
+              setFilterProduct(filteredData);
+            }}
+          >
+            Search
+          </button>
+        </div>
         <button
           onClick={() => {
             console.log("Before filter", listOfProduct);
@@ -41,7 +71,7 @@ export const ProductCard = () => {
       <div>
         <h5>Print all data using loop</h5>
         <div className="product_items">
-          {listOfProduct.map((product, idx) => {
+          {filterProduct.map((product, idx) => {
             return <Product key={idx} product={product} />;
           })}
         </div>

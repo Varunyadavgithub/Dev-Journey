@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [mode, setMode] = useState("Light");
 
@@ -11,32 +12,27 @@ const Navbar = () => {
     color: mode === "Light" ? "black" : "white",
   };
 
-  console.log("Navbar rendered");
-
-  // 1st case: [] -> empty array dependency -> only once called when navbar rendered.
-  // useEffect(() => {
-  //   console.log("useEffect called");
-  // }, []);
-
-  // 2nd case -> No array dependency -> render everytime when any state variable change in that perticular component.
-  // useEffect(()=>{
-  //   console.log('useEffect called');
-  // })
-
-  // 3rd case ->  specific variable pass as array dependency -> render everytime when that specific variable change in that perticular component.
-  // useEffect(()=>{
-  //   console.log('useEffect called');
-  // },[mode])
-
   return (
     <div className="navbar" style={style}>
-      <h1>LOGO</h1>
+      <h1>
+        <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+          LOGO
+        </Link>
+      </h1>
       <div className="right-part">
         <ul className="menu_items">
-          <li>Men</li>
-          <li>Women</li>
-          <li>Kids</li>
-          <li>Card</li>
+          <li>
+            <Link to="/men">Men</Link>
+          </li>
+          <li>
+            <Link to="/women">Women</Link>
+          </li>
+          <li>
+            <Link to="/kids">Kids</Link>
+          </li>
+          <li>
+            <Link to="/cart">Card</Link>
+          </li>
         </ul>
         <button
           className="mode-btn"
