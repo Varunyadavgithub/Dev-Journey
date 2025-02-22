@@ -17,6 +17,9 @@ class ClassBased extends Component {
       userDetails: resData,
     });
     console.log("componentDidMount is called.");
+    this.timer=setInterval(()=>{
+      console.log("Varun")
+    },1000)
   }
 
   componentDidUpdate() {
@@ -25,6 +28,7 @@ class ClassBased extends Component {
 
   componentWillUnmount() {
     console.log("componentWillUnmount is called.");
+    clearInterval(this.timer)
   }
 
   render() {
