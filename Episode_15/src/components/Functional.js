@@ -8,7 +8,7 @@ const Functional = (props) => {
 
   useEffect(() => {
     console.log("useEffect is called.");
-    const timer=setInterval(() => {
+    const timer = setInterval(() => {
       console.log("Functional component is called.");
     }, 1000);
     return () => {
@@ -16,6 +16,12 @@ const Functional = (props) => {
       clearInterval(timer);
     };
   }, []);
+
+  // 🔥 Equivalent in Functional Components using useEffect([])
+  // useEffect(() => {
+  //   console.log("useEffect is called.");
+  // }, [count]);
+
   return (
     <div className="container">
       <h1 className="title">Hello, from Functional Component</h1>

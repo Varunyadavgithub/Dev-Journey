@@ -26,6 +26,13 @@ class ClassBased extends Component {
     console.log("componentDidUpdate is called.");
   }
 
+  // 🤔 How Did Developers Handle This Before useEffect?
+  // componentDidUpdate(preProps, preState) {
+  //   if (this.state.userDetails!==preState.userDetails) {
+  //     console.log("componentDidUpdate is called.");
+  //   }
+  // }
+
   componentWillUnmount() {
     console.log("componentWillUnmount is called.");
     clearInterval(this.timer)
