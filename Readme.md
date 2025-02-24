@@ -36,6 +36,7 @@ Each episode dives into specific topics, offering code examples and explanations
 - [Episode 16: Custom Hooks, Suspense, Lazy Loading](./Episode_16/Readme.md)
 - [Episode 17: Configure Tailwind CSS in React with Parcel](./Episode_17/Readme.md)
 - [Episode 18: Higher Order Component (HOC)](./Episode_18/Readme.md)
+- [Episode 19: Lifting State Up & Controlled vs Uncontrolled Components](./Episode_19/Readme.md)
 
 ---
 
