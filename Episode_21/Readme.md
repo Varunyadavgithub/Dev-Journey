@@ -180,6 +180,7 @@ export default userSlice.reducer;
 ```
 
 ## **Some Important Terminologies**
+![diagram-export-2-28-2025-8_49_16-PM](https://github.com/user-attachments/assets/602a391a-03b2-4bb2-99f9-98445e55b4c4)
 
 ---
 
