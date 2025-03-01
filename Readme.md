@@ -39,6 +39,8 @@ Each episode dives into specific topics, offering code examples and explanations
 - [Episode 19: Lifting State Up & Controlled vs Uncontrolled Components](./Episode_19/Readme.md)
 - [Episode 20: Props Drilling & Context API in React](./Episode_20/Readme.md)
 - [Episode 21: Redux Toolkit for State Management](./Episode_21/Readme.md)
+- [Episode 22: useRef, useMemo Hooks in React.js](./Episode_22/Readme.md)
+- [Episode 23: Form Handling & Validation with ZOD in React](./Episode_23/Readme.md)
 
 ---
 

@@ -30,7 +30,6 @@ const appRouter = createBrowserRouter([
         element: <Ref />,
       },
     ],
-    errorElement: <Error />,
   },
 ]);
 
