@@ -62,7 +62,6 @@ Here’s a breakdown of the episodes included:
 - [Episode 24: HTML Accessibility (`aria-` attributes)](./Episode_24/Readme.md)
 - [Episode 25: Best Practices for Writing Clean HTML](./Episode_25/Readme.md)
 - [Episode 26: Common Mistakes to Avoid](./Episode_26/Readme.md)
-- [Episode 27: Real Website Layout with Just HTML](./Episode_27/Readme.md)
 
 ---
 
