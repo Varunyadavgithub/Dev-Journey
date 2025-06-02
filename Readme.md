@@ -8,7 +8,9 @@ Welcome to **Dev Journey**, a structured repository documenting key concepts, be
 
 - **[HTML](./HTML/Readme.md)**  
 - **[React](./React_Js/Readme.md)**  
-- **[Next.js](./Next_Js/Readme.md)**  
+- **[Next.js](./Next_Js/Readme.md)**
+- **[PHP](./PHP/Readme.md)**  
+- **[Nginx](./Nginx/Readme.md)**  
 
 ---
 
