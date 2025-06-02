@@ -10,7 +10,7 @@ Welcome to **Dev Journey**, a structured repository documenting key concepts, be
 - **[React](./React_Js/Readme.md)**  
 - **[Next.js](./Next_Js/Readme.md)**
 - **[PHP](./PHP/Readme.md)**  
-- **[Nginx](./Nginx/Readme.md)**  
+- **[Nginx](./Nginx/NGINX_Guide_Notes.md)**  
 
 ---
 
