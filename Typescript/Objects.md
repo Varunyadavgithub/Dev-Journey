@@ -173,11 +173,3 @@ const otherStudent: Student = {
 
 * 🧠 Combine interfaces with function signatures for rich object behavior.
 
----
-
-📘 Up Next:
-
-* Enums in TypeScript
-* `interface` vs `type` (in depth)
-* Functions with typed parameters and return types
-
