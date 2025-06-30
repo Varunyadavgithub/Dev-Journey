@@ -142,17 +142,3 @@ const admin: User = {
 2. 📚 **Readability** – Code becomes easier to understand.
 3. 🛡️ **Safety** – Enforces stricter type constraints.
 4. 🧱 **Scalability** – Supports union, intersection, nested, and literal types.
-
----
-
-### 🔁 `type` vs `interface` (Coming Soon)
-
-While both are used for defining custom types, there are key differences we’ll explore in a future section!
-
----
-
-🧭 Up Next:
-
-* Enums in TypeScript
-* `interface` vs `type`
-* Functions with parameter & return types
