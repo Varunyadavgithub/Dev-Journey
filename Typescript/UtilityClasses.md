@@ -1,4 +1,6 @@
-### **Utility Classes in TypeScript**
+## 🎯 8. Utility Classes in TypeScript
+
+**Definition:**
 Utility classes in TypeScript are built-in generics that allow you to transform, modify, and work with types in various ways. They help make type definitions more dynamic, flexible, and reusable.
 
 ---
@@ -228,18 +230,18 @@ const user: Instance = { s: "Hello", t: "World" };
 
 ### **Summary**
 
-| Utility Type         | Description                                                        |
-|-----------------------|--------------------------------------------------------------------|
-| `Partial<Type>`       | Makes all properties optional.                                    |
-| `Required<Type>`      | Makes all properties required.                                    |
-| `Readonly<Type>`      | Makes all properties read-only.                                   |
-| `Record<Key, Type>`   | Creates a type with specified keys and value types.               |
-| `Pick<Type, Keys>`    | Extracts a subset of properties.                                  |
-| `Omit<Type, Keys>`    | Excludes specific properties.                                     |
-| `Exclude<Type, Keys>` | Removes types from a union.                                       |
-| `Extract<Type, Keys>` | Extracts types assignable to a union.                             |
-| `NonNullable<Type>`   | Removes `null` and `undefined`.                                   |
-| `Parameters<Type>`    | Extracts parameter types from a function.                        |
-| `ConstructorParameters<Type>` | Extracts constructor parameter types.                    |
-| `ReturnType<Type>`    | Extracts the return type of a function.                           |
-| `InstanceType<Type>`  | Extracts the instance type of a class.                            |
+| Utility Type                  | Description                                         |
+| ----------------------------- | --------------------------------------------------- |
+| `Partial<Type>`               | Makes all properties optional.                      |
+| `Required<Type>`              | Makes all properties required.                      |
+| `Readonly<Type>`              | Makes all properties read-only.                     |
+| `Record<Key, Type>`           | Creates a type with specified keys and value types. |
+| `Pick<Type, Keys>`            | Extracts a subset of properties.                    |
+| `Omit<Type, Keys>`            | Excludes specific properties.                       |
+| `Exclude<Type, Keys>`         | Removes types from a union.                         |
+| `Extract<Type, Keys>`         | Extracts types assignable to a union.               |
+| `NonNullable<Type>`           | Removes `null` and `undefined`.                     |
+| `Parameters<Type>`            | Extracts parameter types from a function.           |
+| `ConstructorParameters<Type>` | Extracts constructor parameter types.               |
+| `ReturnType<Type>`            | Extracts the return type of a function.             |
+| `InstanceType<Type>`          | Extracts the instance type of a class.              |
