@@ -219,5 +219,3 @@ const createError = (): Error => {
 | Rest Parameters     | `(...args: number[]) => void`        | Handle multiple inputs   |
 | Object Parameters   | `(obj: { name: string }) => void`    | Strict shape enforcement |
 | `never` return      | `(): never => throw Error(...)`      | For error functions      |
-
----
