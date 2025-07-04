@@ -23,6 +23,7 @@ The following topics are available, each with detailed explanations and code exa
 - [03. Arrays, Tuples & `type` Keyword](./Arrays.md)
 - [04. Objects & Interfaces](./Objects.md)
 - [05. Functions](./Functions.md)
+- [06. Classes](./Classes.md)
 
 More sections will be added as learning continues. Stay tuned!
 
