@@ -37,6 +37,17 @@ SELECT * FROM table_name;
 SELECT * FROM students;
 ```
 
+Used to fetch single column data from a table.
+
+```sql
+SELECT <column_name> FROM <table_name>;
+```
+
+✅ Example:
+
+```sql
+SELECT name FROM students;
+```
 ---
 
 ## 📌 SELECT with WHERE Clause
