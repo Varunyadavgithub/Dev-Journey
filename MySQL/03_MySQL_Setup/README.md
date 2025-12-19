@@ -38,21 +38,24 @@ mysql -u root -p
 ### Common Terminal Commands
 
 ```sql
-SHOW DATABASES;
+SHOW DATABASES;          -- list all databases
 ```
 
 ```sql
-SELECT DATABASE();
+SELECT DATABASE();       -- show the currently selected database
 ```
 
 ```sql
-system cls;
+DESC <table_name>;       -- display the structure of a table
 ```
 
 ```sql
-EXIT;
+system cls;              -- clear the terminal screen (Windows)
 ```
 
+```sql
+EXIT;                    -- exit from the MySQL session
+```
 ---
 
 ## 📌 Verify MySQL Installation
@@ -60,7 +63,7 @@ EXIT;
 Check MySQL version:
 
 ```bash
-mysql --version
+mysql --version        -- display the installed MySQL version
 ```
 
 ---
