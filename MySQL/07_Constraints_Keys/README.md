@@ -34,6 +34,7 @@ CREATE TABLE students (
 ## 📌 PRIMARY KEY
 
 Uniquely identifies each row.
+It must contain UNIQUE values, and cannot contain NULL values.
 A table can have **only one primary key**.
 
 ```sql
