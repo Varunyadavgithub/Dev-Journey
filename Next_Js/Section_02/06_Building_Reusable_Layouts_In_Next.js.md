@@ -96,6 +96,7 @@ If you have nested layouts, wrapping works like this:
 ```
 Root layout → Blog layout → blog/post/page.js
 ```
+Note: `html` and `body` tag only are used in root `layout.jsx` code.
 
 ---
 
