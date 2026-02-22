@@ -48,12 +48,15 @@ In the **App Router**, dynamic route parameters are passed into the `page.js` co
 ### ✅ Example: `app/blog/[slug]/page.js`
 
 ```js
-export default function BlogPostPage({ params, searchParams }) {
+export default function async BlogPostPage({ params, searchParams }) {
+  console.log(params)
+  console.log(searchParams)
+
   // Destructure the slug from URL
-  const { slug } = params;
+  const { slug } = await params;
 
   // Optional: get query parameters like ?ref=google
-  const { ref } = searchParams;
+  const { ref } = await searchParams;
 
   return (
     <div>
