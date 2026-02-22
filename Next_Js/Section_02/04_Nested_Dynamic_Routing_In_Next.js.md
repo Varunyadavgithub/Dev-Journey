@@ -46,8 +46,8 @@ In `page.js`, you get both dynamic parameters using `params`.
 ### ✅ Example: `app/blog/[category]/comments/[commentId]/page.js`
 
 ```js
-export default function CommentPage({ params }) {
-  const { category, commentId } = params;
+export default function async CommentPage({ params }) {
+  const { category, commentId } = await params;
 
   return (
     <div>
