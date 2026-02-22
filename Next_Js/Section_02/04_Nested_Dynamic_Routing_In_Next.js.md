@@ -57,6 +57,7 @@ export default function async CommentPage({ params }) {
   );
 }
 ```
+Note: `Parent Routes` can not access the Children slugs but the `Children Route` can access the Parent slugs.
 
 ---
 
